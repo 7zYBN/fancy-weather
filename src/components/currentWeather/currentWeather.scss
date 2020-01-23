@@ -1,0 +1,47 @@
+.current_weather {
+  font-family: 'Baloo Bhai';
+  width: 60%;
+  padding: 20px;
+  margin: 20px;
+  
+  color: #FFF;
+  background: darken(rgba(79, 102, 228, 0.5), 50);
+  border-radius: 25px;
+
+  &--location {
+    font-size: 80px;
+  }
+
+  &--day {
+    font-size: 50px;
+  }
+
+  .weather {
+    display: flex;
+    justify-content: space-between;
+
+    &--temperature {
+      font-size: 300px;
+    }
+
+    .details {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+
+      &--icon {
+        width: 170px;
+        align-self: flex-start;
+      }
+
+      .details_list {
+        font-size: 40px;
+        align-self: flex-end;
+
+        &--item {
+
+        }
+      }
+    }
+  }
+}

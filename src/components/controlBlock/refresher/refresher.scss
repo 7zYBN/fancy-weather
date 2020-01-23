@@ -1,0 +1,16 @@
+.refresher {
+  background: darken(rgba(204, 204, 204, 0.5), 30);
+  border-radius: 7px;
+  cursor: pointer;
+
+  .fa-sync-alt {
+    padding: 7px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF;
+  }
+
+  &:hover {
+    background: darken(rgba(204, 204, 204, 0.5), 50);
+  }
+}

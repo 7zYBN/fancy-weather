@@ -1,0 +1,23 @@
+.languages_dropdown {
+  font-family: 'Futura Std Book';
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  border-radius: 10px;
+  background: darken(rgba(204, 204, 204, 0.5), 30);
+  padding: 5px;
+  color: #FFF;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
+
+  &:hover {
+    background: darken(rgba(204, 204, 204, 0.5), 50);
+  }
+
+  &--language {
+    
+  }
+}

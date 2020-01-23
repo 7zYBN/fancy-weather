@@ -1,0 +1,19 @@
+.single_day {
+
+  &--weekday {
+    font-size: 20px;
+  }
+
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+
+    &--temperature {
+      align-self: center;
+    }
+
+    &--icon {
+      width: 100px;
+    }
+  }
+}
